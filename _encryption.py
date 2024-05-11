@@ -1,5 +1,5 @@
 def encrypt(word):
-	dict_ = {'a': '0' , 'e':'1' , 'i':'!' , 'o':'2' , 'u':'3' , 't':'@' , 'w':'^' , 't':'$' , 'l':'#'}
+	dict_ = {'a': '0' , 'e':'1' , 'i':'!' , 'o':'2' , 'u':'3' , 't':'@' , 'w':'^' , 't':'$' , 'l':'#', ' ':'f'}
 	word_lower = word.lower()
 	reverse_lower = word_lower[::-1]
 	encrypted_word = ""
