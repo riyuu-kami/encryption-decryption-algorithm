@@ -1,5 +1,5 @@
 def decrypt(word):
-    __dict__ ={'0': 'a' , '1':'e' , '!':'i' , '2':'o' , '3':'u' , '@':'t' , '^':'w' , '$':'t' , '#':'l'}
+    __dict__ ={'0': 'a' , '1':'e' , '!':'i' , '2':'o' , '3':'u' , '@':'t' , '^':'w' , '$':'t' , '#':'l' , 'f':' '}
     word_lower = word.lower()
     reverse_lower = word_lower[::-1]
     decrypted_word = ""
